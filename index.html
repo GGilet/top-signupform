@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./script.js" defer></script>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+		<title>Sign Up Form</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sidebar-image">
+				<div class="logo-banner">
+					<i class="material-icons">label</i>
+					<p>Flower  Space</p>
+				</div>
+				<!-- <img src="./images/flower.jpg" alt="flower" /> -->
+			</div>
+			<div class="form-container">
+				<div class="title-form-container">
+					<div class="title-container">
+						<p>
+							This is not a real online service! You know you need something
+							like this in your life to help you realize your deepest dreams.
+						</p>
+
+						<p>You <span>know</span> you want to</p>
+					</div>
+
+					<div class="form-body-container">
+						<h3>Let's do this!</h3>
+						<form class="user-info-form" action="#" method="get" id="form">
+							<label for="first-name"
+								>First Name<br />
+								<input
+									type="text"
+									name="first-name"
+									id="first-name"
+									class="form-inputs"
+								/>
+							</label>
+
+							<label for="last-name"
+								>Last Name<br />
+								<input
+									type="text"
+									name="last-name"
+									id="last-name"
+									class="form-inputs"
+								/>
+							</label>
+
+							<label for="email-address"
+								>Email Address<br />
+								<input
+									type="email"
+									name="email-address"
+									id="email-address"
+									class="form-inputs"
+								/>
+							</label>
+
+							<label for="phone-number"
+								>Phone Number<br />
+								<input
+									type="tel"
+									name="phone-number"
+									id="phone-number"
+									class="form-inputs"
+									placeholder="(xxx-xxx-xxxx)"
+									pattern="^\d{3}-\d{3}-\d{4}$"
+								/>
+							</label>
+
+							<label for="password"
+								>Password<br />
+								<input
+									type="password"
+									name="password"
+									id="password"
+									class="form-inputs"
+								/>
+                            <span id="incorrectPassword"></span>
+
+							</label>
+
+							<label for="confirmPassword"
+								>Confirm Password<br />
+								<input
+									type="password"
+									name="confirmPassword"
+									id="confirmPassword"
+									class="form-inputs"
+								/>
+                            <span id="incorrectConfirmPassword"></span>
+
+							</label>
+                            
+						</form>
+					</div>
+
+					<div class="form-button-container">
+						<button id="button
+                         type="submit" class="create-button">Create Account</button>
+						<div class="previous-account">
+							<p>Already have an account? <a href="#">Log in</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
