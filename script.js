@@ -43,8 +43,6 @@ function validatePassword(form) {
 }
 
 submitButton.addEventListener('click', () => {
-	console.log(password);
-	console.log(confirmPassword);
 	validatePassword(form);
 	if (buttonWasClicked === true) {
 		clearStytle();
